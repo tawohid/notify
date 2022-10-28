@@ -1,7 +1,7 @@
-<h1>
-    Welcome to your dashboard {"user"}
-</h1>
-<a href="/#/notifications/123">Notifications</a>
-<h2>
-    Your balance is {"balance"}
-</h2>
+<script>
+    import LayoutDashboard from "../common/LayoutDashboard.svelte";
+</script>
+
+<LayoutDashboard>
+   <h1>dash</h1>
+</LayoutDashboard>
