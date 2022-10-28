@@ -2,14 +2,14 @@
   <div class="bg-white w-full h-16 shadow-sm">
     <div class="container mx-auto max-w-screen-lg  h-full flex items-center">
       <div class="flex-1">
-        <a href="/#/">
-          <img src="https://ecm.capitalone.com/CI_Common/assets/images/logos/capital-one-logo.svg" alt="Logo" class="h-10 pl">
+        <a href="/#/dashboard/1/">
+          <img src="https://ecm.capitalone.com/CI_Common/assets/images/logos/capital-one-logo.svg" alt="Logo" class="h-10 m-4">
         </a>
       </div>
       <div class="flex-1">
         <div class="flex justify-end ">
           
-          <a href="/#/notifications/1">
+          <a href="/#/notifications/1/">
             <button class="relative p-1 mr-6 -mt-1 rounded-full hover:bg-gray-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,23 +55,28 @@
     </div>
   </div>
 
-
-<slot></slot>
+  <div class="w-full h-4/5">
+    <slot></slot>
+  </div>
+    
   
-
-  <div class="bg-gray-200 w-full h-18 shadow-sm">
-    <div class="container mx-auto max-w-screen-lg px-6 py-3">
-      <div class="flex justify-between items-center">
-        <div class="text-sm text-gray-600 font-light">
-          © 2022 Capital One
-        </div>
-        <div class="text-sm text-gray-600 font-light">
-          CS4485 Project
+    <div class="bg-gray-200 w-full h-18 shadow-sm mt-auto">
+      <div class="container mx-auto max-w-screen-lg px-6 py-3">
+        <div class="flex justify-between items-center">
+          <div class="text-sm text-gray-600 font-light">
+            © 2022 Capital One
+          </div>
+          <div class="text-sm text-gray-600 font-light">
+            CS4485 Project
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
 </div>
+
+
+
 
 
 <style>
