@@ -1,6 +1,6 @@
 <div class="bg-gray-100 flex flex-col h-screen justify-between items-center">
   <div class="bg-white w-full h-16 shadow-sm">
-    <div class="container mx-auto max-w-screen-lg  h-full flex items-center">
+    <div class="container mx-auto max-w-screen-2xl h-full flex items-center">
       <div class="flex-1">
         <a href="/#/dashboard/1/">
           <img src="https://ecm.capitalone.com/CI_Common/assets/images/logos/capital-one-logo.svg" alt="Logo" class="h-10 m-4">
@@ -27,7 +27,7 @@
                 <path d="M13.73 21a2 2 0 0 1-3.46 0" />
               </svg>
               <span class="badge">
-                5
+                {count}
               </span>
             </button>
           </a>
@@ -61,7 +61,7 @@
     
   
     <div class="bg-gray-200 w-full h-18 shadow-sm mt-auto">
-      <div class="container mx-auto max-w-screen-lg px-6 py-3">
+      <div class="container mx-auto max-w-screen-2xl px-6 py-3">
         <div class="flex justify-between items-center">
           <div class="text-sm text-gray-600 font-light">
             © 2022 Capital One
@@ -76,7 +76,9 @@
 </div>
 
 
-
+<script>
+  export let count = 3;
+</script>
 
 
 <style>
